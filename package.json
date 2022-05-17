@@ -1,5 +1,5 @@
 {
-  "name": "@curseling/com.curseling.extraserializeables",
+  "name": "com.curseling.extraserializeables",
   "version": "1.0.2",
   "displayName": "Extra Serializeables",
   "description": "Adds serializable versions of Dictionary, Set, etc. Includes property drawers for the inspector",
