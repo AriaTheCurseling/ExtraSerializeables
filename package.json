@@ -1,5 +1,5 @@
 {
-  "name": "com.curseling.extraserializeables",
+  "name": "@curseling/com.curseling.extraserializeables",
   "version": "1.0.0",
   "displayName": "Extra Serializeables",
   "description": "Adds serializable versions of Dictionary, Set, etc. Includes property drawers for the inspector",
@@ -10,9 +10,15 @@
     "set",
     "tuple"
   ],
-  "author": {
-    "name": "Aria",
-    "email": "aria.the.curseling@gmail.com"
+  "author": "Aria <aria.the.curseling@gmail.com>",
+  "type": "library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "library"
+  "repository": {
+    "type": "git",
+    "url": "github.com/AriaTheCurseling/ExtraSerializeables"
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }
