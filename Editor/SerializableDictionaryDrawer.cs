@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace com.Curseling.ExtraSerializeables.Editor
 {
-    [CustomPropertyDrawer(typeof(SerializableDictionary<,>))]
+    [CustomPropertyDrawer(typeof(SerializableDictionary<,>)), CustomPropertyDrawer(typeof(SerializableHashset<>))]
     public class SerializableDictionaryDrawer : PropertyDrawer
     {
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
